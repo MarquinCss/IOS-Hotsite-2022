@@ -1,0 +1,116 @@
+
+
+/*Desafio da paleta de cores*/
+/*Minhas Cores:*/
+/* #b7aea5 ,#f77014 ,#e33c08 ,#433d3d ,#221d21 */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+body{
+background:linear-gradient(#e33c08,#433d3d);
+}
+.btn-1 {
+    background: #1aa272;
+    background: linear-gradient(0deg, #433d3d 0%, #e33c08 100%);
+    border-radius: 10%;
+    width:120px;
+  }
+  .btn-1:hover {
+     background: #006c40;
+  background: linear-gradient(0deg,#433d3d 0%,#f77014 100%);
+  }
+  
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+  }
+  
+  .cabecalho-imagem {
+      position:relative;
+      left:130px;
+    height: 120px;
+  }
+  
+  .cabecalho-menu {
+    display: flex;
+    gap: 200px;
+  }
+  
+  .cabecalho-menu-item {
+      font-size:30px;
+    font-family:Georgia, serif;
+    color: #221d21;
+    font-weight: 400;
+    font-size: 18px;
+    transition:transform .5s;
+  }
+
+  .cabecalho-menu-item:hover{
+    transform:scale(1.2);
+
+  }
+  section{
+	   display: flex;
+	flex-wrap: wrap;
+	gap:50px;
+	  
+  }
+
+  h1 {
+      Font-size:50px;
+     color: #221d21;
+      transition:transform .5s;
+    }
+  mark{
+	  color:#221d21;
+  background-color:#e33c08; }
+  
+  .fotos{
+	  flex-direction:row;
+  }
+  
+  footer{
+	
+	  display:flex;
+	  align-items:flex-end;
+	  background: #221d21;  
+	  justify-content:center;
+	  width:100%;
+  }
+  p{ 
+  font-size:20px;
+     color: #221d21;
+	 
+	  
+	  
+  }
+  
+  
+  .btn-2 {
+	  position:relative;
+	  top:30px;
+    background: #1aa272;
+    background: linear-gradient(0deg, #433d3d 0%, #e33c08 100%);
+	border:#221d21;
+    border-radius: 20%  ;
+    height:70px;
+	width:180px;
+  }
+  .btn-2:hover {
+     background: #006c40;
+  background: linear-gradient(0deg,#433d3d 0%,#f77014 100%);
+  }
+  
+
+  
